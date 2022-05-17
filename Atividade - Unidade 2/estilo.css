@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* a regra acima ser para "zerar" algumas propriedades que já possuem certas medidas como padrão */
+body{background-colo:ghostwhite}
+h2{
+    font-size:14px;
+    color: #777777;
+    line-height: 55px;       /* altera a altura da linha do texto para */ 
+    height: 55px;           /* altera a altura do elemento background-color: black; */
+}
+h1{
+    font-size:72px; 
+    font-family: Cambria, Times, 'TTimes New Roman', serif;
+    text-align: center;     /* altera o alinhamento do texto */
+    height:400px;
+    line-height:400px;
+    background-color: #777777;
+    color:#ffffff;
+    background: url('https://www.peninsula.com/pt/-/media/images/paris/new/dining/loiseau-blanc/ppr-oiseau-blanc-interior-evening-1074/ppr-oiseaublanc.png?mw=987&hash=D10331BB6F8E4B1D72B44BB7BA1828A54129DE51');
+}
+h3{display: none;}          /* define que o objeto não será exibido*/
+h4{
+    font-size:24px;
+    font-family: Georgia, 'Times New Roman', serif;
+    color:darkcyan;
+    margin:24px;            /* altera a margem ao redor do objeto para 24px */
+    clear: both;            /* remove o elemento flutuante de ambos os lados */
+}
+p {
+    font-family: Arial, Helvetica, sand-serif;
+    color:#777777;
+    width:250px;            /* reduz a largura do parágrafo para 250px */
+    margin: 24px;
+}
+li{
+    border:solid 1px #cccccc;
+    color:#ffffff;
+    background-color:darkcyan;
+    width:150px;
+    margin:12px;
+    padding:8px; /* altera a margem interna para 8px*/
+    float: left; /* poosiciona o elemento à esquerda do elemento de baixo*/   
+}
+.preco{
+    color:royalblue;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size:18px;
+}

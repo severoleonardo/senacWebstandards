@@ -1,0 +1,50 @@
+/* aplica a estilização a todos os elementos da págia */
+        /* as configurações abaixo resetam todos os estilos padrões do HTML */ 
+        *{
+            margin:0;
+            padding:0;
+            border:none;
+            list-style-type:none;
+        }
+
+        /* aplica a estilização no título */
+        h1{
+            margin-bottom:32px; /* margim na parte de baixo do parágrafo */
+        }
+
+        /*   aplica a estilização somente ao parágrafo */
+        p{
+            width:300px; /* largura do parágrafo */
+            border: solid 1px #666666; /* cor da linha da borda */
+            background-color: #cccccc; /* cor do fundo do parágrafo */
+            font-size:14px; /* indica o tamanho da fonte do parágrafo */
+            line-height: 24px; /* espaçamento entre as linhas do parágrafo */
+            padding:8px 12px; /* altera as medindas do espaçamento interno do parágrafo */ 
+        }
+
+        /* Aplica a estilização nos links */
+        .link{
+            width:100px; /* largura */
+            background-color:crimson; /* cor do fundo  */
+            color:white; /* cor do título */
+            text-align: center; /* alinhamento do texto */
+            float:left; /* faz com que os links sejam aparesentados na horizontal para a esquerda */
+            border:solid 1px #000000; /*  cria uma borda da cor preta */
+            padding:40px 0px; /* espaçamento interno do elemento */
+        }
+        #quadrado{
+            background-color: teal;
+            margin:0 10px;
+        }
+
+        a{
+            color:#ffffff;
+            text-decoration:none;
+        }
+
+        #quebra{
+            clear:both;
+
+        }
+
+        /* ul{list-style: square; // Serve para alterar os bulletpoint para outros formatos} */

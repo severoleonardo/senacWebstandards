@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>FORMULÁRIOS - AULA 3</title>
+        
+        <style>
+
+        </style>
+    </head>
+    <body>
+            <action="nomedapagina.php" method="POST">
+                
+                <!--Nome-->
+                <label for="nome">Nome:</label> <!--Permite que o leitor de texto associar o campo nome com o rótulo nome-->
+                <input type="text" id="nome"> <!-- value="escreva seu nome" escreve texto para usuário--> 
+                <br>
+
+                <!--E-mail-->
+                <label for="email">E-mail</label>
+                <input type="email" id="email">
+                <br>
+                
+                <!--Senha-->
+                <label for="senha">Senha</label>
+                <input type="password" id="senha">
+                <br>
+
+                <!--Data Nascimento-->
+                <label for="dataNascimento">Data de nascimento</label>
+                <input type="date" id="dataNascimento">
+                <br>
+
+                <!--Sexo-->
+                <label for="masculino">Sexo</label>
+                <input type="radio" id="masculino" name="sexo"> masculino
+                <input type="radio" id="feminino" name="sexo"> feminino
+                <br>
+
+                <!--Endereço-->
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco">
+                <br>
+
+                <!--CEP-->
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep">
+                <br>
+
+                <!--Cidade-->
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade">
+                <br>
+
+                <!--Estado-->
+                <label for="estado">Estado:</label>
+                <select id="estado">
+                    <option>Escolha seu estado</option>
+                    <option>RR</option> 
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>PA</option>  
+                    <option>AC</option>   
+                    <option>RO</option>   
+                    <option>TO</option>   
+                </select>
+                <br>
+
+                <!--Calça-->
+                <label for="tamanhoCalca">Número da calça:</label>
+                <input type="number" id="tamanhoCalca">
+                <br>
+
+                <!--Sapato-->
+                <label for="tamanhoSapato">Número do calçado:</label>
+                <input type="number" id="tamanhoSapato">
+                <br>
+
+                <!--Cor 1-->
+                <label for="cor1">Escolha cor preferida:</label>
+                <input type="color" id="cor1">
+                <br>
+
+                <!--Cor 2-->
+                <label for="cor2">Escolha 2º cor preferida:</label>
+                <input type="color" id="cor2">
+                <br>
+
+                <!--Observações-->
+                <label for="observacoes">Observações:</label>
+                <textarea id="observacoes"></textarea>
+                <br>
+
+
+                <!--Checkbox 1-->
+                <input type="checkbox" id="clube">
+                <label for="clube">Deseja participar do nosso clube?</label>
+                <br>
+
+                <!--Checkbox 2-->
+                <input type="checkbox" id="copinho">
+                <label for="copinho">Deseja que a gente escreva seu nome errado no copinho?</label>
+                <br>
+
+                <!--Mensagem interna do sistema-->
+                <input type="hidden" id="origem" value="cliente cadastrado pelo parceiro">
+                <br>
+
+                <!--Botões-->
+                <input type="submit" id="pbEnviar" value="Confirmar">
+                <input type="reset" id="pbLimpar" value="Limpar">
+                
+                <button id="botão exemplo">Botão exemplo</button> <!--Forma alternativa de criar botões-->
+            
+            </form>
+
+    
+    </body>
+</html>
